@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Put player's marker on board
 class Board
   def self.check(arr, answer, marker)

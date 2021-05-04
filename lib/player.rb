@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Initiates player with name and marker
 class Player
   attr_reader :name, :marker
