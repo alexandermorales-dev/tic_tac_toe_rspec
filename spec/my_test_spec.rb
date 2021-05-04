@@ -7,6 +7,10 @@ describe 'Board' do
     it "returns array with player's marker" do
       expect(Board.check([[1, 2, 3]], 2, 'X')).to eql [[1, 'X', 3]]
     end
+
+    it "returns an array with player's marker and is not a falsey value" do
+      expect(Board.check([[1, 2, 3]], 2, 'X')).not_to be_falsey
+    end
   end
 end
 
@@ -18,6 +22,10 @@ describe 'Player' do
 
   it 'returns player marker' do
     expect(player1.marker).to eql('X')
+  end
+
+  it 'returns an array and not other object' do
+    expect(player1).not_to be_a(String)
   end
 end
 
@@ -36,6 +44,10 @@ describe 'Rules' do
     str2 = 'Player 2 wins'
     it "returns true if there's a winner" do
       expect(Rules.win([1, 2, 3], [4, 5, 8], array_winner, str1, str2)).to be true
+    end
+
+    it "returns true when there is a winner" do
+      expect(Rules.win([1, 2, 3], [4, 5, 8], array_winner, str1, str2)).not_to be false
     end
   end
 end
