@@ -46,7 +46,7 @@ describe 'Rules' do
       expect(Rules.win([1, 2, 3], [4, 5, 8], array_winner, str1, str2)).to be true
     end
 
-    it "returns true when there is a winner" do
+    it 'returns true when there is a winner' do
       expect(Rules.win([1, 2, 3], [4, 5, 8], array_winner, str1, str2)).not_to be false
     end
   end

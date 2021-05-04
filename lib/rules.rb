@@ -2,7 +2,6 @@
 # rubocop:disable Metrics/CyclomaticComplexity
 # rubocop:disable Metrics/PerceivedComplexity
 
-# Check when any player makes a winning move
 class Rules
   def self.win(array_select_player1, array_select_player2, array_winner, string1, string2)
     x = 0

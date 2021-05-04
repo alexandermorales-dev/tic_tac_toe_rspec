@@ -1,4 +1,3 @@
-# Put player's marker on board
 class Board
   def self.check(arr, answer, marker)
     arr.each do |item|
