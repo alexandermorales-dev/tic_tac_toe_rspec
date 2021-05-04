@@ -62,11 +62,11 @@ Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns 
 ## Authors
 
 👤 **Author**
+Chibuike Uzoechina 
 
-👤 Chibuike Uzoechina 
-GitHub: @Chike1990
-Twitter: @ChibuikeUzoechi 
-LinkedIn: @Chibuike-Uzoechina 
+- GitHub: @Chike1990
+- Twitter: @ChibuikeUzoechi 
+- LinkedIn: @Chibuike-Uzoechina 
 
 👤 **Author**
 Alexander Morales
