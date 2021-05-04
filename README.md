@@ -38,7 +38,7 @@ Run main.rb with [Ruby V.3.0.0](https://www.ruby-lang.org/es/downloads/).
 
 ### Run tests
 
-Linters errors
+In order to run RSpec tests you can type in your terminal `rspec`
 
 ## Game Description
 
@@ -62,11 +62,11 @@ Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns 
 ## Authors
 
 👤 **Author**
-Chibuike Uzoechina 
+Chibuike Uzoechina
 
 - GitHub: @Chike1990
-- Twitter: @ChibuikeUzoechi 
-- LinkedIn: @Chibuike-Uzoechina 
+- Twitter: @ChibuikeUzoechi
+- LinkedIn: @Chibuike-Uzoechina
 
 👤 **Author**
 Alexander Morales
@@ -95,4 +95,3 @@ This project is [CC0-1.0](LICENSE) licensed.
 - Google: For letting us find crucial information in order to create this project.
 - Aristides Jose Molina Pérez
 - GitHub: [@aristides1000](https://github.com/aristides1000) who I worked with for the game logic
-
