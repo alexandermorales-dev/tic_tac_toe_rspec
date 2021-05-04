@@ -1,9 +1,12 @@
+# frozen_string_literal: true
+
 # rubocop:disable Metrics/MethodLength
 # rubocop:disable Metrics/CyclomaticComplexity
 # rubocop:disable Metrics/PerceivedComplexity
 
+# Check when any player makes a winning move
 class Rules
-  def self.win(array_select_player1, array_select_player2, array_winner, string1, string2)
+  def self.win(array_select_player1, array_select_player2, array_winner)
     x = 0
 
     attr_accessor :array_select_player1, :array_select_player2, :array_winner, :string1, :string2
@@ -15,14 +18,14 @@ class Rules
     @string2 = string2
 
     while x < 8
-      if @array_select_player1.include? @array_winner[x][0] and
-         @array_select_player1.include? @array_winner[x][1] and
-         @array_select_player1.include? @array_winner[x][2]
+      if @array_select_player1.include?(@array_winner[x][0]) &&
+         @array_select_player1.include?(@array_winner[x][1]) &&
+         @array_select_player1.include?(@array_winner[x][2])
         puts @string1
         return true
-      elsif @array_select_player2.include? @array_winner[x][0] and
-            @array_select_player2.include? @array_winner[x][1] and
-            @array_select_player2.include? @array_winner[x][2]
+      elsif @array_select_player2.include?(@array_winner[x][0]) &&
+            @array_select_player2.include?(@array_winner[x][1]) &&
+            @array_select_player2.include?(@array_winner[x][2])
         puts @string2
         return true
       end

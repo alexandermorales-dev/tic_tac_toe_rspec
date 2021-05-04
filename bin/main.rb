@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require_relative '../lib/player'
 require_relative '../lib/rules'
@@ -73,7 +74,7 @@ while j < 10
       select_player1 = gets.chomp.to_i
     end
 
-    while array_select_player1.include? select_player1 or array_select_player2.include? select_player1
+    while array_select_player1.include?(select_player1) || array_select_player2.include?(select_player1)
       puts 'Please Type another number, because this number is already taken'
       sleep(1)
       puts 'Please select an available cell from the board'
@@ -97,7 +98,7 @@ while j < 10
       select_player2 = gets.chomp.to_i
     end
 
-    while array_select_player1.include? select_player2 or array_select_player2.include? select_player2
+    while array_select_player1.include?(select_player2) || array_select_player2.include?(select_player2)
       puts 'Please Type another number, because this number is already taken'
       sleep(1)
       puts 'Please select an available cell from the board'
