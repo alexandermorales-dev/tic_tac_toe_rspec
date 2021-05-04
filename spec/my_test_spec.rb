@@ -2,6 +2,14 @@ require './lib/board'
 require './lib/player'
 require './lib/rules'
 
+describe Board do
+  describe '#check' do
+    it "returns array with player's marker" do
+      expect(Board.check([[1, 2, 3]], 2, 'X')).to eql [[1, 'X', 3]]
+    end
+  end
+end
+
 describe Player do
   player1 = Player.new(name = 'alex', marker = 'X')
   it 'returns player name' do
