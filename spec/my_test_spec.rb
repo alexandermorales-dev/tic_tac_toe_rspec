@@ -28,3 +28,12 @@ describe PlayerT do
     end
   end
 end
+
+describe Rules do
+  describe '#win' do
+    array_winner = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]]
+    it "returns true if there's a winner" do
+      expect(Rules.win([1, 2, 3], [4, 5, 8], array_winner, "Player 1 you Win the Game", 'Player 2 you win the game')).to be true
+    end
+  end
+end
