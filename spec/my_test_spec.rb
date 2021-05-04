@@ -1,6 +1,6 @@
-require './lib/board'
-require './lib/player'
-require './lib/rules'
+require_relative '../lib/board'
+require_relative '../lib/player'
+require_relative '../lib/rules'
 
 describe 'Board' do
   describe '#check' do
