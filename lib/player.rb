@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Initiates player with name and marker
 class Player
   attr_reader :name, :marker
 
@@ -7,6 +10,7 @@ class Player
   end
 end
 
+# Checks player turn
 module PlayerT
   def self.turn(init, str1, str2)
     if init.odd?
