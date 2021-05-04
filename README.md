@@ -62,11 +62,11 @@ Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns 
 ## Authors
 
 👤 **Author**
-Aristides Jose Molina Pérez
 
-- GitHub: [@aristides1000](https://github.com/aristides1000)
-- Twitter: [@aristides_1000](https://twitter.com/@aristides_1000)
-- LinkedIn: [aristides jose molina perez](https://www.linkedin.com/in/aristides-jose-molina-perez-09b0579a)
+👤 Chibuike Uzoechina 
+GitHub: @Chike1990
+Twitter: @ChibuikeUzoechi 
+LinkedIn: @Chibuike-Uzoechina 
 
 👤 **Author**
 Alexander Morales
@@ -93,3 +93,6 @@ This project is [CC0-1.0](LICENSE) licensed.
 
 - Ariel Camus CEO Microverse: For letting us start this journey.
 - Google: For letting us find crucial information in order to create this project.
+- Aristides Jose Molina Pérez
+- GitHub: [@aristides1000](https://github.com/aristides1000) who I worked with for the game logic
+
