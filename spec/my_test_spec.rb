@@ -32,6 +32,8 @@ end
 describe 'Rules' do
   describe '#win' do
     array_winner = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]]
+    str1 = 'Player 1 wins'
+    str2 = 'Player 2 wins'
     it "returns true if there's a winner" do
       expect(Rules.win([1, 2, 3], [4, 5, 8], array_winner, str1, str2)).to be true
     end
